@@ -9,13 +9,15 @@ import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { AppCoverComponent } from './app-cover/app-cover.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppCarouselComponent } from './app-carousel/app-carousel.component';
+import { AppFeaturettesComponent } from './app-featurettes/app-featurettes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
     AppCoverComponent,
-    AppCarouselComponent
+    AppCarouselComponent,
+    AppFeaturettesComponent
   ],
   imports: [
     BrowserModule,
