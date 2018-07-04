@@ -8,12 +8,14 @@ import { environment } from '../environments/environment.prod';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { AppCoverComponent } from './app-cover/app-cover.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppCarouselComponent } from './app-carousel/app-carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
-    AppCoverComponent
+    AppCoverComponent,
+    AppCarouselComponent
   ],
   imports: [
     BrowserModule,
