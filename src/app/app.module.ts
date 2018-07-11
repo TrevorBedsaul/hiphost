@@ -13,6 +13,7 @@ import { AppFeaturettesComponent } from './app-featurettes/app-featurettes.compo
 import { AppSlideshowComponent } from './app-slideshow/app-slideshow.component';
 import { AppCarouselUpdatedComponent } from './app-carousel-updated/app-carousel-updated.component';
 import { AppTilesComponent } from './app-tiles/app-tiles.component';
+import { AppContactUsComponent } from './app-contact-us/app-contact-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AppTilesComponent } from './app-tiles/app-tiles.component';
     AppFeaturettesComponent,
     AppSlideshowComponent,
     AppCarouselUpdatedComponent,
-    AppTilesComponent
+    AppTilesComponent,
+    AppContactUsComponent
   ],
   imports: [
     BrowserModule,
