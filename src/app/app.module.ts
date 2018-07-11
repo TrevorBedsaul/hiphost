@@ -11,6 +11,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppCarouselComponent } from './app-carousel/app-carousel.component';
 import { AppFeaturettesComponent } from './app-featurettes/app-featurettes.component';
 import { AppSlideshowComponent } from './app-slideshow/app-slideshow.component';
+import { AppCarouselUpdatedComponent } from './app-carousel-updated/app-carousel-updated.component';
+import { AppTilesComponent } from './app-tiles/app-tiles.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { AppSlideshowComponent } from './app-slideshow/app-slideshow.component';
     AppCoverComponent,
     AppCarouselComponent,
     AppFeaturettesComponent,
-    AppSlideshowComponent
+    AppSlideshowComponent,
+    AppCarouselUpdatedComponent,
+    AppTilesComponent
   ],
   imports: [
     BrowserModule,
