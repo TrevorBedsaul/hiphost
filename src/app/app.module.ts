@@ -15,6 +15,8 @@ import { AppCarouselUpdatedComponent } from './app-carousel-updated/app-carousel
 import { AppTilesComponent } from './app-tiles/app-tiles.component';
 import { AppContactUsComponent } from './app-contact-us/app-contact-us.component';
 import { AppNavbarUpdatedComponent } from './app-navbar-updated/app-navbar-updated.component';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +29,26 @@ import { AppNavbarUpdatedComponent } from './app-navbar-updated/app-navbar-updat
     AppCarouselUpdatedComponent,
     AppTilesComponent,
     AppContactUsComponent,
-    AppNavbarUpdatedComponent
+    AppNavbarUpdatedComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    RouterModule.forRoot([
+      {
+        path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+      },
+      {
+        path: 'home',
+        component: HomeComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

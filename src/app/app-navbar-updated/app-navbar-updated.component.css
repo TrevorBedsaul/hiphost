@@ -3,3 +3,29 @@
     color: white;
     font-size: 20px;
 }
+
+#mid:active {
+    background-color: #555;
+    color: white;
+    font-size: 20px;
+}
+
+.column {
+    float: center;
+    width: 33.33%;
+    padding: 10px;
+    height: 250px;
+  }
+
+  .column a {
+    float: none;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .column a:hover {
+    background-color: #555;
+  }
