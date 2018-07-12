@@ -14,6 +14,7 @@ import { AppSlideshowComponent } from './app-slideshow/app-slideshow.component';
 import { AppCarouselUpdatedComponent } from './app-carousel-updated/app-carousel-updated.component';
 import { AppTilesComponent } from './app-tiles/app-tiles.component';
 import { AppContactUsComponent } from './app-contact-us/app-contact-us.component';
+import { AppNavbarUpdatedComponent } from './app-navbar-updated/app-navbar-updated.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AppContactUsComponent } from './app-contact-us/app-contact-us.component
     AppSlideshowComponent,
     AppCarouselUpdatedComponent,
     AppTilesComponent,
-    AppContactUsComponent
+    AppContactUsComponent,
+    AppNavbarUpdatedComponent
   ],
   imports: [
     BrowserModule,
