@@ -15,8 +15,17 @@ import { AppCarouselUpdatedComponent } from './app-carousel-updated/app-carousel
 import { AppTilesComponent } from './app-tiles/app-tiles.component';
 import { AppContactUsComponent } from './app-contact-us/app-contact-us.component';
 import { AppNavbarUpdatedComponent } from './app-navbar-updated/app-navbar-updated.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { AppFooterComponent } from './app-footer/app-footer.component';
+import { AppPrivacyComponent } from './app-privacy/app-privacy.component';
+import { AppTermsComponent } from './app-terms/app-terms.component';
+import { AppBioComponent } from './app-bio/app-bio.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +39,16 @@ import { HomeComponent } from './home/home.component';
     AppTilesComponent,
     AppContactUsComponent,
     AppNavbarUpdatedComponent,
-    HomeComponent
+    HomeComponent,
+    AppFooterComponent,
+    AppPrivacyComponent,
+    AppTermsComponent,
+    AppBioComponent,
+    PrivacyPolicyComponent,
+    TermsAndConditionsComponent,
+    AboutComponent,
+    ContactComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +65,26 @@ import { HomeComponent } from './home/home.component';
       {
         path: 'home',
         component: HomeComponent
+      },
+      {
+        path: 'terms',
+        component: TermsAndConditionsComponent
+      },
+      {
+        path: 'privacy',
+        component: PrivacyPolicyComponent
+      },
+      {
+        path: 'about',
+        component: AboutComponent
+      },
+      {
+        path: 'contact',
+        component: ContactComponent
+      },
+      {
+        path: 'team',
+        component: TeamComponent
       }
     ])
   ],
