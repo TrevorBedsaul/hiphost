@@ -1,3 +1,7 @@
+#mid {
+  text-align: center;
+}
+
 #mid:hover {
     background-color: #555;
     color: white;
