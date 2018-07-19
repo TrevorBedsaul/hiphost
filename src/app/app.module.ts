@@ -26,6 +26,8 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
+import { SafetyComponent } from './safety/safety.component';
+import { AppSafetyComponent } from './app-safety/app-safety.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { TeamComponent } from './team/team.component';
     TermsAndConditionsComponent,
     AboutComponent,
     ContactComponent,
-    TeamComponent
+    TeamComponent,
+    SafetyComponent,
+    AppSafetyComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +71,7 @@ import { TeamComponent } from './team/team.component';
         component: HomeComponent
       },
       {
-        path: 'terms',
+        path: 'terms-and-conditions',
         component: TermsAndConditionsComponent
       },
       {
@@ -85,6 +89,10 @@ import { TeamComponent } from './team/team.component';
       {
         path: 'team',
         component: TeamComponent
+      },
+      {
+        path:'safety',
+        component: SafetyComponent
       }
     ])
   ],
