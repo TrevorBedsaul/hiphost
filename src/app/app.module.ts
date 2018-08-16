@@ -56,9 +56,9 @@ import { AppSafetyComponent } from './app-safety/app-safety.component';
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule,
-    AngularFireAuthModule,
+    // AngularFireModule.initializeApp(environment.firebase),
+    // AngularFireDatabaseModule,
+    // AngularFireAuthModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
       {
