@@ -67,7 +67,7 @@ import { AppSafetyComponent } from './app-safety/app-safety.component';
         pathMatch: 'full'
       },
       {
-        path: 'home',
+        path: '/home',
         component: HomeComponent,
         pathMatch: 'full'
       },
