@@ -68,7 +68,8 @@ import { AppSafetyComponent } from './app-safety/app-safety.component';
       },
       {
         path: 'home',
-        component: HomeComponent
+        component: HomeComponent,
+        pathMatch: 'full'
       },
       {
         path: 'terms-and-conditions',
