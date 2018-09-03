@@ -63,12 +63,17 @@ import { AppSafetyComponent } from './app-safety/app-safety.component';
     RouterModule.forRoot([
       {
         path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+      },
+      {
+        path: 'about',
         redirectTo: '/about',
         pathMatch: 'full'
       },
       {
         path: 'home',
-        redirectTo: '/home',
+        component: HomeComponent,
         pathMatch: 'full'
       },
       {
