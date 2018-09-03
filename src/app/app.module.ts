@@ -86,7 +86,8 @@ import { AppSafetyComponent } from './app-safety/app-safety.component';
       },
       {
         path: 'about',
-        component: AboutComponent
+        component: AboutComponent,
+        pathMatch: 'full'
       },
       {
         path: 'contact',
