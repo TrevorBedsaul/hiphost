@@ -67,11 +67,6 @@ import { AppSafetyComponent } from './app-safety/app-safety.component';
         pathMatch: 'full'
       },
       {
-        path: 'about',
-        redirectTo: '/about',
-        pathMatch: 'full'
-      },
-      {
         path: 'home',
         component: HomeComponent,
         pathMatch: 'full'

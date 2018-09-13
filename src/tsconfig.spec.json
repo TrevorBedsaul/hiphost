@@ -15,9 +15,5 @@
   "include": [
     "**/*.spec.ts",
     "**/*.d.ts"
-  ],
-  "rewrites": [ {
-    "source": "/*",
-    "destination": "/index.html"
-  } ]
+  ]
 }
