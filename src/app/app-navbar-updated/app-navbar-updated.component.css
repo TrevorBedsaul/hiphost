@@ -6,15 +6,13 @@
 
 #mid:hover {
     color: white;
-    font-size: 30px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #mid:active {
 
     color: white;
-    font-size: 30px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .column {
