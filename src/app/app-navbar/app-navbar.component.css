@@ -1,13 +1,13 @@
 #mid:hover {
     background-color: #555;
     color: white;
-    font-size: 20px;
+    text-decoration: underline;
 }
 
 #mid:active {
     background-color: #555;
     color: white;
-    font-size: 20px;
+    text-decoration: underline;    
 }
 
 .column {
