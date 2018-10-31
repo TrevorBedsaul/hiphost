@@ -24,6 +24,11 @@ body {
     background-image: url("../../assets/img/table.jpg");
     background-size: cover;
   }
+  
+  .background-image {
+    opacity: 0.5;
+    filter: opacity(0.5);
+  }
   #engage {
     background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
     background-size: cover;
