@@ -19,8 +19,14 @@ body {
     letter-spacing: -.05rem;
   }
 
+  #explore {
+    background-image: url("../../assets/img/table.jpg");
+  }
   #engage {
     background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
+  }
+  #experience {
+    background-image: url("../../assets/img/snow.jpg");
   }
   
   
