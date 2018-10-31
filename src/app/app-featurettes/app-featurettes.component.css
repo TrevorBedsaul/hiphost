@@ -23,12 +23,9 @@ body {
   #explore {
     background-image: url("../../assets/img/table.jpg");
     background-size: cover;
+    background-color: transparent;
   }
-  
-  .background-image {
-    opacity: 0.5;
-    filter: opacity(0.5);
-  }
+
   #engage {
     background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
     background-size: cover;
