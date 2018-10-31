@@ -18,6 +18,10 @@ body {
     line-height: 1;
     letter-spacing: -.05rem;
   }
+
+  #engage {
+    background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
+  }
   
   
   /* RESPONSIVE CSS
