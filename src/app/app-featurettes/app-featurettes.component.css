@@ -20,6 +20,12 @@ body {
     letter-spacing: -.05rem;
   }
 
+  .col {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 
   #explore {
     background-image: url("../../assets/img/table.jpg");
