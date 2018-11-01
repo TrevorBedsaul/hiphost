@@ -23,7 +23,7 @@ body {
   .row {
     opacity: 0.2;
   }
-  .row col {
+  .col {
     opacity: 1.0;
   }
 
@@ -35,6 +35,8 @@ body {
   #engage {
     background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
     background-size: cover;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
   }
   #experience {
     background-image: url("../../assets/img/snow.jpg");
