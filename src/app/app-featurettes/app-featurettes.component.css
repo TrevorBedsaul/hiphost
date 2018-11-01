@@ -20,7 +20,7 @@ body {
     letter-spacing: -.05rem;
   }
 
-  .column {
+  .col-md {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 0%;
@@ -35,8 +35,6 @@ body {
   #engage {
     background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
     background-size: cover;
-    opacity: 0.2;
-    filter: alpha(opacity=20);
   }
   #experience {
     background-image: url("../../assets/img/snow.jpg");
