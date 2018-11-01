@@ -115,19 +115,22 @@ body {
   }
 
 
-.crossfade > figure:nth-child(1) { 
+.crossfade > figure:nth-child(1) {
+  padding-top: 5%; 
   animation-delay: 10s;
   background: url('../../assets/img/shopping_cart.jpg') no-repeat center center fixed; 
   background-size: cover;
   z-index: 0;
 }
 .crossfade > figure:nth-child(2) {
+  padding-top: 5%;
   animation-delay: 10s;
   background: url('../../assets/img/bike.jpg') no-repeat center center fixed;
   background-size: cover;
   z-index: 0;
 }
 .crossfade > figure:nth-child(3) {
+  padding-top: 5%;
   animation-delay: 10s;
   background: url('../../assets/img/car.jpg') no-repeat center center fixed;
   background-size: cover;
