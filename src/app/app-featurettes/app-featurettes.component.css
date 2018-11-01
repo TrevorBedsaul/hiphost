@@ -11,6 +11,7 @@ body {
   .featurette-divider {
     margin: 0; /* Used to space out each feature */
     padding: 0px;
+    position: relative;
   }
   
   /* Thin out the marketing headings */
