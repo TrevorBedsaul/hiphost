@@ -20,12 +20,13 @@ body {
   }
 
   #explore {
-    background-image: url("../../assets/img/table.jpg");
+    background-image: url("../../assets/img/table_transparent.jpg");
     background-size: cover;
+    
   }
 
   #engage {
-    background-image: url("../../assets/img/wildtextures_white-brick-wall.jpg");
+    background-image: url("../../assets/img/wildtextures_white-brick-wall_transparent.jpg");
     background-size: cover;
   }
   #experience {
