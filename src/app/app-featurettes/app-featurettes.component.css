@@ -10,7 +10,6 @@ body {
   
   .featurette-divider {
     margin: 0; /* Used to space out each feature */
-    padding: 0px;
   }
   
   /* Thin out the marketing headings */
@@ -18,13 +17,6 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
-  }
-
-  .col-md {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
   }
 
   #explore {
