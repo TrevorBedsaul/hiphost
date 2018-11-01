@@ -115,9 +115,7 @@ body {
   }
 
 
-.crossfade > figure:nth-child(1) {
-  padding-top: 5%; 
-  animation-delay: 10s;
+.crossfade > figure:nth-child(1) { 
   background: url('../../assets/img/shopping_cart.jpg') no-repeat center center fixed; 
   background-size: cover;
   z-index: 0;
