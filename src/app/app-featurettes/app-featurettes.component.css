@@ -20,13 +20,6 @@ body {
     letter-spacing: -.05rem;
   }
 
-  .row {
-    opacity: 0.2;
-  }
-  .col {
-    opacity: 1.0;
-  }
-
   #explore {
     background-image: url("../../assets/img/table.jpg");
     background-size: cover;
