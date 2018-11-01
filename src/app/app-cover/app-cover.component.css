@@ -116,6 +116,7 @@ body {
 
 
 .crossfade > figure:nth-child(1) { 
+  animation-delay: 10s;
   background: url('../../assets/img/shopping_cart.jpg') no-repeat center center fixed; 
   background-size: cover;
   z-index: 0;
@@ -127,7 +128,7 @@ body {
   z-index: 0;
 }
 .crossfade > figure:nth-child(3) {
-  animation-delay: 20s;
+  animation-delay: 10s;
   background: url('../../assets/img/car.jpg') no-repeat center center fixed;
   background-size: cover;
   z-index: 0;
