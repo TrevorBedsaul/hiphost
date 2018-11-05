@@ -141,7 +141,7 @@ imageAnimation {
     animation-timing-function: ease-in;
     opacity: 0;
   }
-  25% {
+  5% {
     animation-timing-function: ease-out;
     opacity: 1;
   }
