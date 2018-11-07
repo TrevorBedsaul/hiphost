@@ -2,10 +2,11 @@
   text-align: center;
   font-size: 20px;
   margin-right: 110px;
+  background-color: rgb(60, 191, 175);
 }
 
 #mid:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
@@ -20,11 +21,13 @@
     width: 33.33%;
     padding: 10px;
     height: 250px;
+    background-color: rgb(60, 191, 175);
   }
 
   .column a {
     float: none;
     color: white;
+    background-color: rgb(60, 191, 175);
     padding: 16px;
     text-decoration: none;
     display: block;
@@ -32,18 +35,20 @@
   }
 
   .column a:hover {
-    background-color: rgb(60, 191, 175);
+    color: black
   }
 
   .colnav {
     float: left;
     width: 30%;
+    background-color: rgb(60, 191, 175);
     
   }
 
   .colnav a {
     float: none;
     color: white;
+    background-color: rgb(60, 191, 175);
     padding: 16px;
     text-decoration: none;
     display: block;

@@ -20,6 +20,7 @@
   .column a {
     float: none;
     color: white;
+    background-color: rgb(60, 191, 175);
     padding: 16px;
     text-decoration: none;
     display: block;
@@ -27,5 +28,5 @@
   }
 
   .column a:hover {
-    background-color: #555;
+    color: black;
   }
